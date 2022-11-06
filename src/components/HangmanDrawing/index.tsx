@@ -13,15 +13,16 @@ const RIGHT_LEG = <div className="rightLeg"></div>;
 
 const LEFT_LEG = <div className="leftLeg"></div>;
 
-function HangmanDrawing() {
+const BODY_PARTS = [HEAD, BODY, RIGHT_ARM, LEFT_ARM, RIGHT_LEG, LEFT_LEG];
+
+type HangmanDrawningProps = {
+  numberOfGuesses: number;
+};
+
+function HangmanDrawing({ numberOfGuesses }: HangmanDrawningProps) {
   return (
     <div className="container">
-      {HEAD}
-      {BODY}
-      {RIGHT_ARM}
-      {LEFT_ARM}
-      {RIGHT_LEG}
-      {LEFT_LEG}
+      {BODY_PARTS.slice(0, numberOfGuesses)}
       <div className="verticalLine"></div>
       <div className="topVertical"></div>
       <div className="vertical"></div>
