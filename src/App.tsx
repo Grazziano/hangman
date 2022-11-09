@@ -3,6 +3,7 @@ import HangmanDrawing from './components/HangmanDrawing';
 import HangmanWord from './components/HangmanWord';
 import Keyboard from './components/Keyboard';
 import words from './data/wordList.json';
+import './styles/global.css';
 
 function getWord() {
   return words[Math.floor(Math.random() * words.length)];
@@ -76,6 +77,7 @@ function App() {
       }}
     >
       <div
+        className="message"
         style={{
           fontSize: '2rem',
           textAlign: 'center',

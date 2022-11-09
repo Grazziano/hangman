@@ -1,0 +1,10 @@
+body {
+  background-color: #cbe896;
+}
+
+.message {
+  background-color: #ff1b1c;
+  border-radius: 0.5rem;
+  color: white;
+  padding: 10px 20px;
+}

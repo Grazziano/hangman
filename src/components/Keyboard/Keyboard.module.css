@@ -7,7 +7,8 @@
 .btn {
   width: 100%;
   border: 3px solid black;
-  background: none;
+  /* background: none; */
+  background-color: #FF7F11;
   aspect-ratio: 1 / 1;
   font-size: 2.5rem;
   text-transform: uppercase;
