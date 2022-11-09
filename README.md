@@ -25,7 +25,7 @@ Para abrir e rodar o projeto, entre na pasta do frontend execute ```npm install`
 Depois, acesse <a href="http://localhost:5173/">http://localhost:5173/</a> no seu navegador.
 
 ### Projeto em produção
-Este projeto pode ser visualizado neste [link](hangman-1214b28gw-grazziano.vercel.app).
+Este projeto pode ser visualizado neste [link](https://hangman-zeta-rust.vercel.app/).
 
 ## 📚 Mais informações
 
